@@ -19,8 +19,8 @@ Incentivar hábitos mais sustentáveis por meio de informações, cálculos e re
 
 ## Lista de Tarefas
 
-[ ] Tela de Index
-[ ] Página para estimar a quantidade de água utilizada
-[ ] Página de consumo de energia
-[ ] Página para produção de lixo
-[ ] Página de resultados ambientais
+* [ ] Tela de Index
+* [ ] Página para estimar a quantidade de água utilizada
+* [ ] Página de consumo de energia
+* [ ] Página para produção de lixo
+* [ ] Página de resultados ambientais
