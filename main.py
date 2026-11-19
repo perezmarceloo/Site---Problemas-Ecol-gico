@@ -44,12 +44,12 @@ def result_calculate(size, lights, device):
 def index():
     return render_template("index.html")
 
-@app.route("/consumo-de-energia")
+@app.route("/energia")
 def energia():
     return render_template("energia.html")
 
 # A segunda página de energia
-@app.route('/<size>')
+@app.route('/energia/<size>')
 def lights(size):
     return render_template(
                             'lights.html', 
@@ -57,7 +57,7 @@ def lights(size):
                            )
 
 # A terceira página de energia
-@app.route('/<size>/<lights>')
+@app.route('/energia/<size>/<lights>')
 def electronics(size, lights):
     return render_template(
                             'electronics.html',
@@ -66,7 +66,7 @@ def electronics(size, lights):
                            )
 
 # Cálculo
-@app.route('/<size>/<lights>/<device>')
+@app.route('/energia/<size>/<lights>/<device>')
 def end(size, lights, device):
     return render_template('end.html', 
                             result=result_calculate(int(size),
